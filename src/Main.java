@@ -12,11 +12,21 @@ public class Main {
         System.out.println("Enter operation:1.Additon  2.Subtraction  3.Multiplication  4.Division");
         option=input.nextInt();
 
-        switch (option){
+        switch (option)
+        {
             case 1:
                 result = num1 + num2;
                 System.out.println("Result:" + result);
                 break;
+
+            case 2:
+                result=num1-num2;
+                System.out.println("Result" + result);
+                break;
+
         }
+
+
+
     }
 }
