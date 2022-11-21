@@ -29,6 +29,14 @@ public class Main {
                 System.out.println("Result" + result);
                 break;
 
+            case 4:
+                result=num1/num2;
+                System.out.print("Result:"+result);
+                break;
+
+            default:
+                System.out.println("Invalid option");
+
         }
 
 
