@@ -24,6 +24,11 @@ public class Main {
                 System.out.println("Result" + result);
                 break;
 
+            case 3:
+                result=num1*num2;
+                System.out.println("Result" + result);
+                break;
+
         }
 
 
